@@ -1,0 +1,36 @@
+@use 'partials/variables' as *;
+@use 'partials/resets' as *;
+@use 'partials/fonts' as *;
+@use 'partials/mixins' as *;
+
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 3rem);
+    background-color: black;
+
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  .App {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
+  

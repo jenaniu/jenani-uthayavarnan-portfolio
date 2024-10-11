@@ -1,0 +1,21 @@
+@use '../../styles/partials/variables' as *;
+@use '../../styles/partials/resets' as *;
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+
+.homepage {
+    text-align: center;
+    &__img{
+        max-width: 100%;
+        border-radius: 50%;
+        padding-top: 1rem;
+
+        @include tablet {
+            width: 50%;
+        }
+
+        @include desktop {
+            width: 30%;
+        }
+    }
+}

@@ -1,18 +1,23 @@
 import './NavBar.scss'
+import { useNavigate, Link } from 'react-router-dom'
+
 
 function NavBar() {
 
-  return (
-    <>
-      <h1>Projects</h1>
-      <h2>That's Our Lingo</h2>
-      <p>A full-stack gamified language learning app that enables the user to memorize key vocabulary terms while <br></br>
-      gaining a deeper understanding of their target language.
 
+    return (
+        <>
+            <section className='nav-bar'>
+                <Link to='/' className='nav-bar__link'>
+                    <h4 className='nav-bar__text'>About</h4>
+                </Link>
 
-      </p>
-    </>
-  )
+                <Link to='/projects' className='nav-bar__link'>
+                    <h4 className='nav-bar__text'>Projects</h4>
+                </Link>
+            </section>
+        </>
+    )
 }
 
 export default NavBar
