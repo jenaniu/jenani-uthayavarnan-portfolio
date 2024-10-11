@@ -15,6 +15,14 @@ function NavBar() {
                 <Link to='/projects' className='nav-bar__link'>
                     <h4 className='nav-bar__text'>Projects</h4>
                 </Link>
+
+                <Link to='/resume' className='nav-bar__link'>
+                    <h4 className='nav-bar__text'>Resume</h4>
+                </Link>
+
+                <Link to='/contact' className='nav-bar__link'>
+                    <h4 className='nav-bar__text'>Contact me</h4>
+                </Link>
             </section>
         </>
     )
