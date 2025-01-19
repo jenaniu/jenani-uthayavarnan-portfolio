@@ -1,0 +1,7 @@
+[
+    {
+        "name": "That's Our Lingo!",
+        "description": "A gamified language learning app that enables comprehension of target languages by memorizing key vocabulary terms and understanding grammar concepts. Users can visually learn their desired language through flashcards and quizzes.",
+        "tools": ["React", "Node.js", "MySQL"]
+    }
+]

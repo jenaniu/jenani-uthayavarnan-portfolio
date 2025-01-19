@@ -6,6 +6,7 @@
 .homepage {
     text-align: center;
     padding: 2rem;
+    animation: 1s ease-out 0s 1 slide-fade-top;
 
     &__img{
         width: 50%;

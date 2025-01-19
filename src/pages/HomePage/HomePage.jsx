@@ -1,11 +1,13 @@
 import './HomePage.scss'
 import headshot from '../../assets/images/jenani-headshot.jpg'
+import CatAnimation from '../../components/CatAnimation/CatAnimation'
 
 function HomePage() {
 
     return (
         <>
             <section className='homepage'>
+                <CatAnimation/>
                 <figure className="homepage__top-section">
                     <img src={headshot} className='homepage__img'></img>
                     <div className="homepage__top-text">
