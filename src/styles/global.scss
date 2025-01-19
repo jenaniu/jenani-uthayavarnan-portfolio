@@ -12,14 +12,16 @@ html, body, #root {
   body {
     display: flex;
     flex-direction: column;
-    min-height: calc(100vh - 3rem);
-    background-color: black;
+    // min-height: calc(100vh - 3rem);
+    color: $color-primary-text;
+    background-color: $color-primary-background;
 
   }
   
   #root {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     flex: 1;
   }
   

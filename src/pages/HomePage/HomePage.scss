@@ -5,17 +5,56 @@
 
 .homepage {
     text-align: center;
+    padding: 2rem;
+
     &__img{
-        max-width: 100%;
+        width: 50%;
         border-radius: 50%;
+        object-fit: cover;
         padding-top: 1rem;
 
         @include tablet {
-            width: 50%;
+            width: 20rem;
+            height: 20rem;
         }
 
         @include desktop {
-            width: 30%;
+            width: 29rem;
+            height: 29rem;
         }
+        
+    }
+
+    &__top-section {
+        @include tablet {
+            display: flex;     
+        }
+
+        @include desktop {
+            display: flex;  
+            padding: 0rem 3rem;   
+        }
+    }
+
+    &__top-text {
+        @include tablet {
+            display: flex;
+            flex-direction: column;  
+            padding: 1rem;
+        }
+
+        @include desktop {
+            display: flex;
+            flex-direction: column;  
+            padding: 0rem 3rem;
+        }
+    }
+
+    &__subheader {
+        padding-top: 1rem;
+    }
+
+    &__text {
+        padding-top: 1rem;
     }
 }

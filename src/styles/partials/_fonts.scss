@@ -3,42 +3,41 @@
 @use './variables' as *;
 
 * {
-    font-family: 'Dongle';
-    color: white;
+    font-family: 'Lexend';
 }
 
 h1 {
-    font-size: 3.815rem; 
-    line-height: 2.5rem;
+    font-size: 2.986rem; 
+    line-height: 4rem;
     font-weight: 700;
 }
 
 h2 {
-    font-size: 3.052rem;
-    line-height: 1.6rem;
+    font-size: 2.488rem;
+    line-height: 3rem;
     font-weight: 700;
 }
 
 h3 {
-    font-size: 2.441rem;
-    line-height: 1.6rem;
+    font-size: 2.074rem;
+    line-height: 2rem;
     font-weight: 600;
 }
 
 h4 {
-    font-size: 1.953rem;
+    font-size: 1.728rem;
     line-height: 1.6rem;
     font-weight: 600;
 }
 
 h5 {
-    font-size: 1.563rem;
+    font-size: 1.44rem;
     line-height: 1.6rem;
     font-weight: 400;
 }
 
 h6 {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     line-height: 1.6rem;
     font-weight: 400;
 }

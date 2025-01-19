@@ -9,20 +9,20 @@ function NavBar() {
         <>
             <section className='nav-bar'>
                 <Link to='/' className='nav-bar__link'>
-                    <h4 className='nav-bar__text'>About</h4>
+                    <h6 className='nav-bar__text'>About</h6>
                 </Link>
 
                 <Link to='/projects' className='nav-bar__link'>
-                    <h4 className='nav-bar__text'>Projects</h4>
+                    <h6 className='nav-bar__text'>Projects</h6>
                 </Link>
 
                 <Link to='/resume' className='nav-bar__link'>
-                    <h4 className='nav-bar__text'>Resume</h4>
+                    <h6 className='nav-bar__text'>Resume</h6>
                 </Link>
 
-                <Link to='/contact' className='nav-bar__link'>
+                {/* <Link to='/contact' className='nav-bar__link'>
                     <h4 className='nav-bar__text'>Contact me</h4>
-                </Link>
+                </Link> */}
             </section>
         </>
     )
