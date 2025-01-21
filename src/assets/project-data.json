@@ -2,6 +2,19 @@
     {
         "name": "That's Our Lingo!",
         "description": "A gamified language learning app that enables comprehension of target languages by memorizing key vocabulary terms and understanding grammar concepts. Users can visually learn their desired language through flashcards and quizzes.",
-        "tools": ["React", "Node.js", "MySQL"]
+        "tools": "React, Node.js, MySQL",
+        "video": "/src/assets/Thats-our-lingo-video.mp4"
+    },
+    {
+        "name": "My Little Corner of Space",
+        "description": "This project was created as part of a collaborative Hackathon in the BrainStation Software Engineering Bootcamp. For our project, our team leveraged the NASA Image API to collect images of space. We decided to showcase an astronaut alone in space, switching through TV channels which presented randomly generated images of space to keep them entertained.",
+        "tools": "HTML, SCSS, JavaScript",
+        "video": "/src/assets/Thats-our-lingo-video.mp4"
+    },
+    {
+        "name": "TELUS Industry Project",
+        "description": "This project was created as part of a collaborative Hackathon in the BrainStation Software Engineering Bootcamp. For our project, our team leveraged the NASA Image API to collect images of space. We decided to showcase an astronaut alone in space, switching through TV channels which presented randomly generated images of space to keep them entertained.",
+        "tools": "HTML, SCSS, JavaScript",
+        "video": "/src/assets/Telus-industry-project-video.mov"
     }
 ]

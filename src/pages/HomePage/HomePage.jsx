@@ -7,7 +7,6 @@ function HomePage() {
     return (
         <>
             <section className='homepage'>
-                <CatAnimation/>
                 <figure className="homepage__top-section">
                     <img src={headshot} className='homepage__img'></img>
                     <div className="homepage__top-text">

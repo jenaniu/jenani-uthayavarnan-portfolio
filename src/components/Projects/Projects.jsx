@@ -1,18 +1,21 @@
 import { useNavigate } from 'react-router-dom'
 import './Projects.scss'
+import thatsOurLingo from '/src/assets/Thats-our-lingo-video.mp4'
 
-
-
-function Projects() {
+function Projects( {projectName, description, tools, projectVideo}) {
 
     return (
         <>
             <article className="project">
-                <p>video/photo content</p>
-                <h2>That's Our Lingo!</h2>
-                <p>A gamified language learning app that enables comprehension of target languages by memorizing key vocabulary terms and understanding grammar concepts. Users can visually learn their desired language through flashcards and quizzes.</p>
-                <h3>Programming tools: </h3> 
-                <p>ReactJS, Node.js, MySQL, Knex</p>
+                <video className="project__video" controls>
+                    <source src={projectVideo} type="video/mp4" />
+                </video>
+                <section className="project__text">
+                    <h2 className="project__title">{projectName}</h2>
+                    <p className="project__description">{description}</p>
+                    <h3 className="project__video-subheader">Programming tools: </h3>
+                    <p className="project__tools">{tools}</p>
+                </section>
             </article>
         </>
     )
