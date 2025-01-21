@@ -1,5 +1,11 @@
+@use '../../styles/partials/variables' as *;
+@use '../../styles/partials/resets' as *;
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+
 .projects {
     display: flex;
     flex-direction: column;
     align-items: center;
+    animation: 1s ease-out 0s 1 slide-fade-top;
 }
