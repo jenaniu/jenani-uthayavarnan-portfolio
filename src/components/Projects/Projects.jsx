@@ -1,6 +1,5 @@
 import { Link, useNavigate } from 'react-router-dom'
 import './Projects.scss'
-import thatsOurLingo from '/src/assets/Thats-our-lingo-video.mp4'
 
 function Projects({ projectName, description, tools, projectVideo }) {
 
