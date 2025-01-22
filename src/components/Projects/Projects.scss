@@ -23,8 +23,18 @@
 
 
     &__video {
-        width: 80%;
+        width: 50%;
         border-radius: 1rem;
+
+        @include tablet {
+            height: 30rem;
+            width: 53.375rem;
+        }
+
+        @include desktop {
+            height: 30rem;
+            width: 53.375rem;
+        }
     }
 
     &__text {
