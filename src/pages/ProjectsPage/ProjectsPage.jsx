@@ -9,9 +9,6 @@ function ProjectPage() {
     return (
         <>
             <h1>Projects</h1>
-            <Link to='https://github.com/jenaniu/jenani-uthayavarnan-thats-our-lingo'>
-                <h2>That's Our Lingo</h2>
-            </Link>
 
             <section className="projects">
             {projectsText.map((project, i) => (

@@ -20,7 +20,17 @@
         background-color:#41628d;
     }
 
+    &__link {
+        text-decoration: none;
+        color: $color-primary-background;
+        transition: 0.5s;
+        
 
+        &:hover {
+            color: $color-primary-background-dark;
+            transform: scale(1.5);
+        }
+    }
 
     &__video {
         width: 50%;

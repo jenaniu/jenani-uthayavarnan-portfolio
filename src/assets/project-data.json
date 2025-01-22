@@ -3,18 +3,21 @@
         "name": "That's Our Lingo!",
         "description": "A gamified language learning app that enables comprehension of target languages by memorizing key vocabulary terms and understanding grammar concepts. Users can visually learn their desired language through flashcards and quizzes.",
         "tools": "React, Node.js, MySQL",
-        "video": "/assets/Thats-our-lingo-video-BagjD-0t.mp4"
+        "video": "/assets/Thats-our-lingo-video-BagjD-0t.mp4",
+        "link": "https://github.com/jenaniu/jenani-uthayavarnan-thats-our-lingo"
     },
     {
         "name": "My Little Corner of Space",
         "description": "This project was created as part of a collaborative Hackathon in the BrainStation Software Engineering Bootcamp. For our project, our team leveraged the NASA Image API to collect images of space. We decided to showcase an astronaut alone in space, switching through TV channels which presented randomly generated images of space to keep them entertained.",
         "tools": "HTML, SCSS, JavaScript",
-        "video": "/src/assets/Thats-our-lingo-video.mp4"
+        "video": "/assets/bstn-hackathon-video.mov",
+        "link": "https://github.com/tamimp/brainstation-hackathon"
     },
     {
         "name": "TELUS Industry Project",
-        "description": "This project was created as part of a collaborative Hackathon in the BrainStation Software Engineering Bootcamp. For our project, our team leveraged the NASA Image API to collect images of space. We decided to showcase an astronaut alone in space, switching through TV channels which presented randomly generated images of space to keep them entertained.",
-        "tools": "HTML, SCSS, JavaScript",
-        "video": "/src/assets/Telus-industry-project-video.mov"
+        "description": "This project was created as part of an Industry Project in the BrainStation Software Engineering Bootcamp. TELUS presented us with a problem space - in a world where consumers have an abundance of television and streaming options, how can TELUS help consumers decide which television package is right for them? Our team decided to create a user-friendly and visually appealling quiz that a user can do to help select a television channel package that suits their preferences.",
+        "tools": "ReactJS, SCSS, APIs",
+        "video": "/assets/Telus-industry-project-video.mov",
+        "link": "https://github.com/aliciajpan/telus-industry-project"
     }
 ]

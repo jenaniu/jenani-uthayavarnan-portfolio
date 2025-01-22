@@ -1,8 +1,8 @@
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import './Projects.scss'
 import thatsOurLingo from '/src/assets/Thats-our-lingo-video.mp4'
 
-function Projects( {projectName, description, tools, projectVideo}) {
+function Projects({ projectName, description, tools, projectVideo }) {
 
     return (
         <>
@@ -11,7 +11,10 @@ function Projects( {projectName, description, tools, projectVideo}) {
                     <source src={projectVideo} type="video/mp4" />
                 </video>
                 <section className="project__text">
-                    <h2 className="project__title">{projectName}</h2>
+                    <Link className="project__link" to='https://github.com/jenaniu/jenani-uthayavarnan-thats-our-lingo'>
+
+                        <h2 className="project__title">{projectName}</h2>
+                    </Link>
                     <p className="project__description">{description}</p>
                     <h3 className="project__video-subheader">Programming tools: </h3>
                     <p className="project__tools">{tools}</p>
