@@ -8,13 +8,14 @@ function ProjectPage() {
 
     return (
         <>
-            <h1>Projects</h1>
+
 
             <section className="projects">
-            {projectsText.map((project, i) => (
-                <Projects key={i} projectName={project.name} tools={project.tools} description={project.description} projectVideo={project.video}/>
-            ))
-            }
+                <h1 className="projects__heading">Projects</h1>
+                {projectsText.map((project, i) => (
+                    <Projects key={i} projectName={project.name} tools={project.tools} description={project.description} projectVideo={project.video} />
+                ))
+                }
             </section>
         </>
     )
