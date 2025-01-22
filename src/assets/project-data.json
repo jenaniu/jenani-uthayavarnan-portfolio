@@ -3,7 +3,7 @@
         "name": "That's Our Lingo!",
         "description": "A gamified language learning app that enables comprehension of target languages by memorizing key vocabulary terms and understanding grammar concepts. Users can visually learn their desired language through flashcards and quizzes.",
         "tools": "React, Node.js, MySQL",
-        "video": "/dist/assets/Thats-our-lingo-video-BagjD-0t.mp4"
+        "video": "/assets/Thats-our-lingo-video-BagjD-0t.mp4"
     },
     {
         "name": "My Little Corner of Space",
