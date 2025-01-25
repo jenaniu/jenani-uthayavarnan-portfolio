@@ -10,9 +10,24 @@
     align-items: center;
     animation: 1s ease-out 0s 1 slide-fade-top;
 
-    &__heading {
+    @include tablet {
+        padding: $desktop-tablet-padding;
+    }
 
+    @include desktop {
+        padding: $desktop-tablet-padding;
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-items: center;
+
+    }
+
+    &__heading {
             align-self: flex-start;
+            padding-bottom: 1rem;
         
     }
 }

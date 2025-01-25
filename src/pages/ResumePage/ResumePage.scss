@@ -4,18 +4,79 @@
 @use '../../styles/partials/mixins' as *;
 
 .resume {
-    margin: 1rem;
+    margin: $mobile-padding;
     animation: 1s ease-out 0s 1 slide-fade-top;
+
+    @include tablet {
+        margin: $desktop-tablet-padding;
+    }
+
+    @include desktop {
+        margin: $desktop-tablet-padding;
+    }
+
+    &__jobs {
+
+        @include desktop {
+            display: flex;
+        }
+    }
 
     &__job {
         padding: 2rem 1rem;
+
+        @include tablet {
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        @include desktop {
+            width: 33%;
+            margin: $desktop-tablet-padding;
+            background-color: $color-primary-background-dark;
+            border-radius: 1rem;
+        }
     }
 
-    &__title{
+    &__title {
         padding-bottom: 1rem;
+
+        @include desktop {
+            font-size: 2.074rem;
+            line-height: 2rem;
+        }
+    }
+
+    &__company {
+        @include desktop {
+            font-size: 1.728rem;
+            line-height: 1.6rem;
+            font-weight: 600;
+        }
     }
 
     &__dates {
         padding-bottom: 1rem;
+
+        @include desktop {
+            font-size: 1.44rem;
+            line-height: 1.6rem;
+            font-weight: 400;
+        }
+    }
+
+    &__list {
+        @include desktop {
+
+            list-style-type: none;
+            padding: 0rem;
+        }
+
+        &--item {
+            @include desktop {
+                padding-bottom: 2rem;
+            }
+        }
     }
 }

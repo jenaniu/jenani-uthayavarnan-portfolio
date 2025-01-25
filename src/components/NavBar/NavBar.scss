@@ -10,8 +10,16 @@
     &__link {
         text-decoration: none;
         color: $color-primary-text;
-        padding: 1rem;
+        padding: $mobile-padding;
         transition: 0.25s;
+
+        @include tablet {
+            padding: $desktop-tablet-padding
+        }
+
+        @include desktop {
+            padding: $desktop-tablet-padding
+        }
 
         &:hover {
             color: $color-secondary-text;

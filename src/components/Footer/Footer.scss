@@ -5,10 +5,18 @@
 
 .footer {
     background-color: $color-primary-background-dark;
-    padding: 1rem;
+    padding: $mobile-padding;
     display: flex;
     justify-content: center;
     gap: 2rem;
+
+    @include tablet {
+        padding: $desktop-tablet-padding;
+    }
+
+    @include desktop {
+        padding: $desktop-tablet-padding;
+    }
 
     &__logo {
         width: 1.875rem;

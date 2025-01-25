@@ -12,10 +12,12 @@ function ProjectPage() {
 
             <section className="projects">
                 <h1 className="projects__heading">Projects</h1>
+                <article className="projects__list">
                 {projectsText.map((project, i) => (
                     <Projects key={i} projectName={project.name} tools={project.tools} description={project.description} projectVideo={project.video} />
                 ))
                 }
+                </article>
             </section>
         </>
     )
