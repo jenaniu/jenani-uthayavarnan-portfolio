@@ -7,6 +7,13 @@
         "link": "https://github.com/jenaniu/jenani-uthayavarnan-thats-our-lingo"
     },
     {
+        "name": "Concert Buddy",
+        "description": "As an adult, finding time to spend with loved ones and choosing the right activities can be challenging in a world full of options. Concert Buddy simplifies this process by integrating the Spotify and Ticketmaster APIs, allowing you to connect your collaborative Spotify playlists and discover upcoming events and concerts that best match your group’s music tastes and interests.",
+        "tools": "ReactJS, Node.js, OAuth",
+        "video": "/assets/Concert-Buddy-Demo.mp4",
+        "link": "https://github.com/jgmhua/concert-buddy-pp"
+    },
+    {
         "name": "My Little Corner of Space",
         "description": "This project was created as part of a collaborative Hackathon in the BrainStation Software Engineering Bootcamp. For our project, our team leveraged the NASA Image API to collect images of space. We decided to showcase an astronaut alone in space, switching through TV channels which presented randomly generated images of space to keep them entertained.",
         "tools": "HTML, SCSS, JavaScript",
@@ -19,12 +26,5 @@
         "tools": "ReactJS, SCSS, APIs",
         "video": "/assets/Telus-industry-project-video.mp4",
         "link": "https://github.com/aliciajpan/telus-industry-project"
-    },
-    {
-        "name": "Concert Buddy",
-        "description": "As an adult, finding time to spend with loved ones and choosing the right activities can be challenging in a world full of options. Concert Buddy simplifies this process by integrating the Spotify and Ticketmaster APIs, allowing you to connect your collaborative Spotify playlists and discover upcoming events and concerts that best match your group’s music tastes and interests.",
-        "tools": "ReactJS, Node.js, OAuth",
-        "video": "/assets/Concert-Buddy-Demo.mp4",
-        "link": "https://github.com/jgmhua/concert-buddy-pp"
     }
 ]
