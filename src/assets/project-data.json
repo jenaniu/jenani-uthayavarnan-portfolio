@@ -24,7 +24,7 @@
         "name": "Concert Buddy",
         "description": "As an adult, finding time to spend with loved ones and choosing the right activities can be challenging in a world full of options. Concert Buddy simplifies this process by integrating the Spotify and Ticketmaster APIs, allowing you to connect your collaborative Spotify playlists and discover upcoming events and concerts that best match your group’s music tastes and interests.",
         "tools": "ReactJS, Node.js, OAuth",
-        "video": "/assets/Concert-Buddy-Demo",
+        "video": "/assets/Concert-Buddy-Demo.mp4",
         "link": "https://github.com/jgmhua/concert-buddy-pp"
     }
 ]
