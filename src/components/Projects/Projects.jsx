@@ -1,7 +1,7 @@
 import { Link, useNavigate } from 'react-router-dom'
 import './Projects.scss'
 
-function Projects({ projectName, description, tools, projectVideo }) {
+function Projects({ projectName, description, tools, projectVideo, projectLink }) {
 
     return (
         <>
@@ -10,7 +10,7 @@ function Projects({ projectName, description, tools, projectVideo }) {
                     <source src={projectVideo} type="video/mp4" />
                 </video>
                 <section className="project__text">
-                    <Link className="project__link" to='https://github.com/jenaniu/jenani-uthayavarnan-thats-our-lingo'>
+                    <Link className="project__link" to={projectLink}>
 
                         <h2 className="project__title">{projectName}</h2>
                     </Link>

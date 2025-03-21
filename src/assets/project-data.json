@@ -2,7 +2,7 @@
     {
         "name": "That's Our Lingo!",
         "description": "A gamified language learning app that enables comprehension of target languages by memorizing key vocabulary terms and understanding grammar concepts. Users can visually learn their desired language through flashcards and quizzes.",
-        "tools": "React, Node.js, MySQL",
+        "tools": "ReactJS, Node.js, MySQL",
         "video": "/assets/Thats-our-lingo-video.mp4",
         "link": "https://github.com/jenaniu/jenani-uthayavarnan-thats-our-lingo"
     },
@@ -19,5 +19,12 @@
         "tools": "ReactJS, SCSS, APIs",
         "video": "/assets/Telus-industry-project-video.mp4",
         "link": "https://github.com/aliciajpan/telus-industry-project"
+    },
+    {
+        "name": "Concert Buddy",
+        "description": "As an adult, finding time to spend with loved ones and choosing the right activities can be challenging in a world full of options. Concert Buddy simplifies this process by integrating the Spotify and Ticketmaster APIs, allowing you to connect your collaborative Spotify playlists and discover upcoming events and concerts that best match your group’s music tastes and interests.",
+        "tools": "ReactJS, Node.js, OAuth",
+        "video": "/assets/Concert-Buddy-Demo",
+        "link": "https://github.com/jgmhua/concert-buddy-pp"
     }
 ]
