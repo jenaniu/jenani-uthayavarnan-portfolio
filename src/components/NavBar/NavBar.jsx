@@ -13,8 +13,12 @@ function NavBar() {
                 </Link>
 
                 <Link to='/projects' className='nav-bar__link'>
-                    <h6 className='nav-bar__text'>Projects</h6>
+                    <h6 className='nav-bar__text'>Developer Projects</h6>
                 </Link>
+
+                {/* <Link to='/marketing' className='nav-bar__link'>
+                    <h6 className='nav-bar__text'>Marketing Projects</h6>
+                </Link> */}
 
                 <Link to='/resume' className='nav-bar__link'>
                     <h6 className='nav-bar__text'>Resume</h6>

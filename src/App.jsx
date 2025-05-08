@@ -7,6 +7,7 @@ import NavBar from './components/NavBar/NavBar'
 import ContactPage from './pages/ContactPage/ContactPage'
 import ResumePage from './pages/ResumePage/ResumePage'
 import Footer from './components/Footer/Footer'
+import MarketingPage from './pages/MarketingPage/MarketingPage'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
     <Routes>
     <Route path="/" element={<HomePage />} />
     <Route path="/projects" element={<ProjectsPage />} />
+    <Route path="/marketing" element={<MarketingPage />} />
     <Route path="/contact" element={<ContactPage />} />
     <Route path="/resume" element={<ResumePage />} />
     </Routes>
