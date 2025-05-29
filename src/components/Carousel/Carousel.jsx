@@ -18,10 +18,13 @@ function Carousel({ data }) {
         <>
         <div className="carousel">
             <BsArrowLeftCircleFill className='arrow arrow--left' onClick={previousSlide}/>
-           {data.map((image, i) => (
-                    <img className={`${slide === i? "carousel__image" : "carousel__image carousel__image--hidden"}`} key={i} src={image.src} alt={image.alt} />
-                ))
-                } 
+           {data.map((item, i) => {
+                    return item.type === 'image' ? (
+                    <img className={`${slide === i? "carousel__image" : "carousel__image carousel__image--hidden"}`} key={i} src={item.src} alt={item.alt} />
+                    ) : (
+                        <video className={`${slide === i? "carousel__image" : "carousel__image carousel__image--hidden"}`} key={i} src={item.src}></video>
+                    );
+            })}
             <BsArrowRightCircleFill className='arrow arrow--right' onClick={nextSlide}/> 
             <span className='indicators'>
                 {data.map((_, i) => {

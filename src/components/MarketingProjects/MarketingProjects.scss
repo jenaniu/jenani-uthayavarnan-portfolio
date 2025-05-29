@@ -1,0 +1,62 @@
+@use '../../styles/partials/variables' as *;
+@use '../../styles/partials/resets' as *;
+@use '../../styles/partials/fonts' as *;
+@use '../../styles/partials/mixins' as *;
+
+.project {
+    background-color: $color-secondary-text;
+    color: $color-primary-background;
+    width: 90%;
+    padding: 2rem 1rem;
+    margin: 1rem;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: 1s;
+
+    @include desktop {
+        width: 45%;
+    }
+
+    &:hover {
+        transform: translateY(-1%);
+        background-color:#41628d;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: $color-primary-background;
+        transition: 0.5s;
+        
+
+        &:hover {
+            color: $color-primary-background-dark;
+            transform: scale(1.5);
+        }
+    }
+
+    &__video {
+        width: 50%;
+        border-radius: 1rem;
+
+        @include tablet {
+           width: 60%;
+        }
+
+        @include desktop {
+            width: 90%;
+        }
+    }
+
+    &__text {
+        padding: $mobile-padding;
+    }
+    &__description {
+        padding: 1rem 0rem;
+    }
+
+    &__tools {
+        padding: 1rem 0rem;
+    }
+}
