@@ -16,9 +16,9 @@ function NavBar() {
                     <h6 className='nav-bar__text'>Developer Projects</h6>
                 </Link>
 
-                <Link to='/marketing' className='nav-bar__link'>
+                {/* <Link to='/marketing' className='nav-bar__link'>
                     <h6 className='nav-bar__text'>Marketing Projects</h6>
-                </Link>
+                </Link> */}
 
                 <Link to='/resume' className='nav-bar__link'>
                     <h6 className='nav-bar__text'>Resume</h6>
