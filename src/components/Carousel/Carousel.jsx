@@ -21,7 +21,7 @@ function Carousel({ data }) {
                return item.type === 'image' ? (
                     <img className={`${slide === i? "carousel__image" : "carousel__image carousel__image--hidden"}`} key={i} src={item.src} alt={item.alt} />
                 ) : (
-                    <video className={`${slide === i? "carousel__image" : "carousel__image carousel__image--hidden"}`} key={i} src={item.src} controls></video>
+                    <video className={`${slide === i? "carousel__video" : "carousel__video carousel__video--hidden"}`} key={i} src={item.src} controls></video>
                 );
             })}
             <BsArrowLeftCircleFill className='arrow arrow--left' onClick={previousSlide}/>
