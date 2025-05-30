@@ -17,21 +17,20 @@ function Carousel({ data }) {
     return (
         <>
         <div className="carousel">
-            <BsArrowLeftCircleFill className='arrow arrow--left' onClick={previousSlide}/>
            {data.map((item, i) => {
-                    console.log(item.type)
-                    return item.type === 'image' ? (
+               return item.type === 'image' ? (
                     <img className={`${slide === i? "carousel__image" : "carousel__image carousel__image--hidden"}`} key={i} src={item.src} alt={item.alt} />
-                    ) : (
-                        <video className={`${slide === i? "carousel__image" : "carousel__image carousel__image--hidden"}`} key={i} src={item.src} controls></video>
-                    );
+                ) : (
+                    <video className={`${slide === i? "carousel__image" : "carousel__image carousel__image--hidden"}`} key={i} src={item.src} controls></video>
+                );
             })}
-            <BsArrowRightCircleFill className='arrow arrow--right' onClick={nextSlide}/> 
+            <BsArrowLeftCircleFill className='arrow arrow--left' onClick={previousSlide}/>
             <span className='indicators'>
                 {data.map((_, i) => {
                     return <button className={`${slide === i? 'indicator' : 'indicator indicator--inactive'}`} key={i} onClick={() => setSlide(i)}></button>
                 })}
             </span>
+            <BsArrowRightCircleFill className='arrow arrow--right' onClick={nextSlide}/> 
         </div>
         </>
     )

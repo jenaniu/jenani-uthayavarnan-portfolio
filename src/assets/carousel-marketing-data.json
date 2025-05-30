@@ -4,14 +4,17 @@
         "description": "Developed and executed a social media campaign to bring awareness to COVID-19 support resources available across the Greater Toronto Area (e.g. vaccine clinics, testing centers, mental health support). Collaborated with outreach coordinators to translate available resources into engaging marketing copy and content. Curated timely content, maintained content roadmap, and created multimedia content, including videos, GIFs, and graphics, to drive engagement, reaching over 1000 people across Instagram and Facebook.",
         "carousel": [
             {
+                "type": "video",
                 "src": "/assets/Brampton-Testing-English.mp4",
                 "alt": "Video sharing testing clinics available in Brampton, Ontario"
             },
             {
+                "type": "video",
                 "src": "/assets/Markham-Testing-English.mp4",
                 "alt": "Video sharing testing clinics available in Markham, Ontario"
             },
             {
+                "type": "video",
                 "src": "/assets/Markham-Volunteers-Tamil.mp4",
                 "alt": "Video sharing volunteering opportunities in Markham, Ontario"
             }
@@ -23,10 +26,12 @@
         "description": "Developed and designed marketing assets (e.g. flyers, email templates) for 5+ vertical industries (e.g. hotels, legal firms, health practices). Collaborated with data analysts to understand the industries and pain points and with Product Managers to translate technical product features, business objectives, and company value propositions into compelling, brand-aligned content. Empowered sales team to personalize client outreach based on industry.",
         "carousel": [
             {
+                "type": "image",
                 "src": "/assets/GP_Vertical_Hotel.jpg",
                 "alt": "Flyer targeted towards hotels"
             },
             {
+                "type": "image",
                 "src": "/assets/GP_Vertical_Hotel_2.jpg",
                 "alt": "Flyer targeted towards hotels"
             }
@@ -38,10 +43,12 @@
         "description": "Led a company-wide rebranding initiative, overseeing 75+ content updates (e.g. sell sheets, user guides, case studies) and coordinating cross-functional reviews with Product and Sales Managers to ensure the copy was up-to-date and accurately reflected current business objectives. Accelerated project completion by 2 months, equipping the sales team with refreshed, high-converting content that more accurately reflected the value proposition of the business and its products/services. ",
         "carousel": [
             {
+                "type": "image",
                 "src": "/assets/ecommerce-sell-sheet.jpg",
                 "alt": "Sell sheet for ecommerce solution"
             },
             {
+                "type": "image",
                 "src": "/assets/gp-fraud-prevention.png",
                 "alt": "Flyer for businesses to prevent fraud"
             }
@@ -53,10 +60,12 @@
         "description": "Planned and deployed 5+ monthly email newsletters, managing stakeholders, leadership, and legal approvals. Collaborated with cross-functional stakeholders to write engaging copy. These emails targeted various business stakeholders, including existing clients, internal team members, and external financial and dealer partners. Consistently completed emails ahead of schedule, allowing time to make regular improvements to emails—increased open rates by 10% through A/B testing and subject-line optimization. ",
         "carousel": [
             {
+                "type": "image",
                 "src": "/assets/Fi-newsletter.png",
                 "alt": "Newsletter targeted towards Financial Institutions"
             },
             {
+                "type": "image",
                 "src": "/assets/Commerce-connect.png",
                 "alt": "Newsletter targeted towards clients"
             }
