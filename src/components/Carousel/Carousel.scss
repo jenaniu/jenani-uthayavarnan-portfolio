@@ -8,8 +8,7 @@
 
     &__image {
         border-radius: 0.5rem;
-        width: 75%;
-        height: 75%;
+        width: 100%;
         object-fit: contain;
 
         &--hidden {
@@ -19,7 +18,7 @@
 
     &__video {
         border-radius: 0.5rem;
-        width: 90%;
+        width: 100%;
         object-fit: cover;
 
         &--hidden {
