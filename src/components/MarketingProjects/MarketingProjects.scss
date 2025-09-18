@@ -37,7 +37,8 @@
     }
 
     &__video {
-        width: 50%;
+        width: 90%;
+        height: 15rem;
         border-radius: 1rem;
 
         @include tablet {
